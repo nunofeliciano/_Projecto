@@ -1,0 +1,298 @@
+/* 
+    Document   : maincss
+    Created on : Jun 4, 2012, 10:45:48 PM
+    Author     : NF
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+h3{
+    height: 2px;
+}
+
+body {
+    background-color: #fff;
+    font: 13px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+}
+
+div.buttons {
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+}
+
+code {
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    color: #002166;
+    display: block;
+    margin: 14px 0 14px 0;
+    padding: 12px 10px 12px 10px;
+}
+
+p.footer{
+    text-align: right;
+    font-size: 11px;
+    border-top: 1px solid #D0D0D0;
+    line-height: 32px;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 0 0;
+}
+
+img.main{
+    border-right: 1px solid #D0D0D0;
+}
+#container{
+    height: 250px;
+}
+#container_save_video{
+    height: 260px;
+}
+#container_welcome{
+    height: 270px;
+
+}
+#containern{
+    height: 150%;
+    margin-top: 20px;
+}
+#esquerda{ 
+    width: 480x; 
+    float:left; 
+    color: #444;
+    background-color: transparent;
+    border-right: 1px solid #D0D0D0;
+    margin-top: 5%;
+    margin-left: 19%;
+} 
+
+#direita{ 
+    margin-left: 50%; 
+    padding: 4 4 4 4px;
+}
+
+#direitan{ 
+    margin-left: 15%; 
+    border-left: 1px solid #D0D0D0;
+}
+
+#conteudo_news{ 
+    margin-left: 25%;
+}
+
+#esquerdan{ 
+    width: 10%; 
+    height: 100%;
+    float:left; 
+    color: #444;
+    background-color: transparent;
+} 
+
+
+#esquerdap{ 
+    width: 480x; 
+    float:left; 
+    color: #444;
+    background-color: transparent;
+    border-right: 1px solid #D0D0D0;
+    margin-left: 5%;
+} 
+
+#direitap{ 
+    margin-left: 50%; 
+    padding: 4 4 4 4px;
+} 
+#centro{ 
+    color: #444;
+    background-color: transparent;
+    font-weight: normal;
+    text-align: center;  
+} 
+
+img.left_image{
+    border-right: 1px solid #D0D0D0; 
+}
+img.center_image{
+    border-right: 1px solid #D0D0D0; 
+}
+.demo {
+    width: 100px;
+    border: 2px solid #EEE;
+    text-align: center;
+    margin-left: 22%;
+}
+
+img.record{
+    border-bottom: 1px solid #D0D0D0; 
+    border: 3px solid;
+}
+
+img.sapo{
+    border-bottom: 1px solid #D0D0D0; 
+    border: 3px solid;
+}
+
+img.add{
+    border-bottom: 1px solid #D0D0D0;  
+    margin-left: 50%;
+}
+img.photo{
+    border-bottom: 1px solid #D0D0D0; 
+}
+
+#left_amigos{
+    float: left;
+    margin-left: 25%;
+    text-align: right;
+}
+#left_welcome{
+    float: left;
+    margin-left: 6%;
+    margin-top: 2%;
+    
+}
+
+
+#center_amigos{
+    float: left;
+    border-left: 1px solid #D0D0D0;
+}
+#center_details{
+    float: left;
+    width: 24%;
+}
+
+#center_welcome{
+    float: left;
+    border-left: 1px solid #D0D0D0;
+}
+#center_welcome_details{
+    float: left;
+    width: 10%;
+}
+#direita_welcome{
+    float: right;
+    
+}
+#right_videos{
+    float: right;
+    width: 10%;
+    margin-right: 15%;
+}
+
+#left_videos{
+    float: left;
+    margin-left: 12%;
+    text-align: right;
+}
+#center_videos{
+    float: left;
+    width: 10%;
+}
+
+#center_details_videos{
+    float: left;
+    width: 10%;
+    border-left: 1px solid #D0D0D0;
+}
+#center_share_videos{
+    float: left;
+    width: 10%;
+}
+
+#right_videos{
+    float: right;
+    width: 10%;
+    margin-right: 15%;
+}
+#right_down{
+    float:right;
+    margin-left: 75%;
+}
+#right_up{
+    margin-left: 76%;
+}
+
+#message{
+    width: 50%;
+    float: left;
+}
+#friends_message{
+    width: 50%;
+    float:left;
+    text-align: left;
+    
+}
+
+#view_stop{
+    float: left;
+    width: 25%;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+#view_video_play{
+    float: left;
+    width: 50%;
+    margin-top: 2%;
+}
+
+#direita_video{
+    height: 100%;
+    margin-left: 50%;
+}
+
+/*CAROUSEL*/
+.jcarousel-skin-tango .jcarousel-container {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 120px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  120px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 75px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+#carou3{
+    border-bottom: 1px solid #D0D0D0;
+    width: 120px;
+    height: 75px;
+}
+
+
